@@ -1,0 +1,82 @@
+* {
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    grid-gap: 15px;
+    margin-left:90px;
+    
+  }
+  
+  .companyName,
+  .surname,
+  .name {
+    box-sizing: border-box;
+    border: 1px solid #e8ecf4;
+    border-radius: 8px;
+    background: #f7f8f9;
+    width: 480px;
+    height: 56px;
+    margin-bottom: 10px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  .number,
+  .Gmail,
+  .password {
+    box-sizing: border-box;
+    border: 1px solid #e8ecf4;
+    border-radius: 8px;
+    background: #f7f8f9;
+    width: 480px;
+    height: 56px;
+  }
+  
+  .text {
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+  }
+  
+  .change {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -30px; 
+  }
+
+  .bluebox{
+    position: absolute;
+    width: 1013px;
+    height: 240px;
+    left: 289px;
+    top: 390px;
+    background: #6EB4FB;
+    border-radius: 36px;
+    overflow-y: scroll;
+  }
+
+  .bluebox2{
+    position: absolute;
+    width: 1013px;
+    height: 240px;
+    left: 289px;
+    top: 658px;
+    background: #6EB4FB;
+    border-radius: 36px;
+    overflow-y: scroll;
+    
+  }
+
+  .title{
+    position: absolute;
+
+    left: 289px;
+    top: 350px;
+  }
